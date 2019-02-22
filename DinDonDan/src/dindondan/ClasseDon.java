@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author caliendo_giuseppe
+ * @author Carbone_Mattia
  */
 public class ClasseDon extends Thread {
 private boolean uy,us;
@@ -33,7 +33,7 @@ public ClasseDon(boolean uye,boolean use){
                if(us==true){
                    Thread.sleep(1000);
                }
-               if (Thread.currentThread().isInterrupted()) {  //questo serve per lo yeld
+               if (Thread.currentThread().isInterrupted()) {  //questo serve per lo yield
                     break;
                 }
 
